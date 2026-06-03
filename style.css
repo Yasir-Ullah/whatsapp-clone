@@ -1,0 +1,639 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+/* main */
+.main {
+    display: flex;
+}
+
+/* sidebar */
+.sidebar {
+    background-color: white;
+    width: 450px;
+    height: 100vh;
+    display: flex;
+}
+
+
+/* left */
+.left {
+    background-color: #f2ecec;
+    width: 58px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.icons:hover {
+    background: rgb(219, 215, 215);
+    border-radius: 50%;
+}
+
+ 
+
+
+.icons i {
+    font-size: 19px;
+    color: gray;
+}
+
+
+.icons .ccppp {
+    color: black;
+}
+
+.icons {
+    position: relative;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 7px 5px;
+
+}
+
+.tooltip {
+    position: absolute;
+    background-color: black;
+    top: 6px;
+    left: 39px;
+    padding: 4px 9px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: white;
+    display: none;
+}
+
+.icons:hover .tooltip {
+    display: block;
+}
+.linnnn{
+    height: 1px;
+    background-color: rgb(165, 160, 160);
+}
+
+
+
+
+.setting {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    color: gray;
+}
+
+.tooltip-bottom {
+    position: absolute;
+    top: 35px;
+    left: -6px;
+    padding: 5px 6px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    display: none;
+    font-size: 11px;
+
+}
+
+.icons:hover .tooltip-bottom {
+    display: block;
+}
+
+.nnn {
+    position: absolute;
+    top: 36px;
+    left: -53px;
+}
+
+/* .settingg:hover .tooltip {
+    display: block;
+} */
+
+.four {
+    position: relative;
+}
+
+.count {
+    position: absolute;
+    top: -23px;
+    right: -11px;
+    background-color: rgb(45, 193, 45);
+    color: white;
+    font-size: 11px;
+    padding: 4px 7px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+}
+
+.one {
+    position: absolute;
+    top: -27px;
+    right: -14px;
+    background-color: rgb(223, 10, 10);
+    color: white;
+    font-size: 11px;
+    padding: 4px 7px;
+    border-radius: 10px;
+}
+
+.four1 .one {
+    position: absolute;
+    top: -1px;
+    right: -2px;
+    background-color: rgb(45, 193, 45);
+    color: white;
+    padding: 4px;
+
+}
+
+/* right sidebar */
+.right {
+    padding: 10px 6px;
+    display: flex;
+    width: 390px;
+    /* flex: 1; */
+    flex-direction: column;
+    box-shadow: 0px 0px 1px gray;
+    gap: 12px;
+}
+
+.iconss {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 12px;
+}
+
+.iconsss {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.iconsss .mmm {
+    position: absolute;
+    background: black;
+    color: white;
+    top: 31px;
+    left: -26px;
+    padding: 6px;
+    display: none;
+    border-radius: 4px;
+    font-size: 11px;
+}
+
+.iconsss:hover .mmm {
+    display: block;
+}
+
+.iconsss:hover {
+    background: rgb(220, 212, 212);
+    border-radius: 50%;
+}
+
+.iconsss .nnnn {
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 30px;
+    left: -70px;
+    border-radius: 4px;
+    font-size: 11px;
+    padding: 6px;
+    display: none;
+}
+
+.iconsss:hover .nnnn {
+    display: block;
+}
+
+
+
+
+
+.iconss i {
+    color: black;
+    font-size: 17px;
+}
+
+
+
+
+
+.chat {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.chat p {
+    font-size: 22px;
+}
+
+
+/* div 2 */
+
+.gggg {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.form {
+    display: flex;
+    border: 1px solid #f8f8f8;
+    background-color: #f9f4f4f3;
+    border-radius: 30px;
+
+}
+
+.form:hover {
+    border: 1px solid rgb(222, 219, 219);
+    /* border-radius: 30px; */
+
+}
+
+.form:focus-within {
+    border: 1px solid green;
+    border-radius: 30px;
+}
+
+
+.search-box {
+    display: flex;
+    border-radius: 26px;
+    border: 1px solid #f4f4f4;
+    /* width: 100%; */
+    height: 38px;
+
+
+}
+
+.search-box button {
+    padding: 4px 15px;
+    border: none;
+    background-color: transparent;
+}
+
+.search-box input {
+    border: none;
+    background-color: transparent;
+        outline: none;
+        caret-color: green;
+    width: 316px;
+
+}
+
+
+
+/* div3 */
+
+ul {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 11px;
+    cursor: pointer;
+}
+
+ul li {
+    list-style: none;
+    border: 1px solid #e8dcdcd7;
+    padding: 6px 12px;
+    color: rgb(70, 68, 68);
+    border-radius: 16px;
+    font-size: 14px;
+
+}
+
+ul li:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+
+/* div4 */
+.right-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    flex: 1;
+    overflow-y: auto;
+    scrollbar-color: black, white;
+    scrollbar-width: thin;
+
+}
+
+
+.wrap {
+    display: flex;
+    align-items: center;
+    /* width: 150px; */
+    cursor: pointer;
+    gap: 15px;
+    padding: 6px;
+}
+
+
+.wrap:hover {
+    background-color: rgb(240, 240, 240);
+    border-radius: 12px;
+}
+
+.img2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+}
+.contanier {
+    display: flex;
+    flex-direction: column;
+}
+.text {
+    display: flex;
+    gap: 12px;
+}
+
+.text span {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: normal;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 219px;
+}
+
+
+
+
+
+.time h6 {
+    color: gray;
+}
+
+.lastSms {
+    margin-top: 6px;
+    color: gray;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 200px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* body */
+
+
+.body {
+    background-color: #f2ecec;
+    box-shadow: 0px 0px 1px gray;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.text22 {
+    background-color: rgba(235, 224, 224, 0.856);
+    width: 80px;
+    height: 80px;
+    border-radius: 20%;
+    /* text-align: center; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 17px;
+    color: gray;
+
+}
+
+
+.text22 i {
+    font-size: 20px;
+}
+
+.text22:hover {
+    background: white;
+}
+
+.six {
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+    font-weight: normal;
+}
+  
+
+/* header */
+.header {
+    background-image: url(imges/background.jpeg);
+    /* width: 100%; */
+    flex: 1;
+}
+
+.img8 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.header-top {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 5px 16px;
+    /* border: 1px solid gray; */
+    box-shadow: 0px 0px 1px gray;
+    cursor: pointer;
+
+
+}
+.box56 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.heder-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
+}
+
+.first i {
+    font-size: 17px;
+    color: black;
+}
+
+/* jjjjj */
+.Sam {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    white-space: wrap;
+    /* justify-content: center; */
+    /* align-items: center; */
+    overflow-y: auto;
+    height: calc(100vh - 50px);
+    width: 100%;
+    scrollbar-width: thin;
+    box-shadow: 0px 0px 1px gray;
+    
+
+
+}
+
+.vvvv {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.mySms {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    /* justify-content: flex-end; */
+    align-items: flex-end;
+    background-color: rgb(211, 245, 188);
+    /* background-color: black; */
+    width: fit-content;
+    box-shadow: 0px 0px 2px gray;
+    padding: 6px 8px;
+    border-radius: 8px 0px 8px 8px;
+    max-width: 450px;
+    word-break: break-all;
+
+}
+
+.message {
+    font-size: 15px;
+    color: #000;
+    margin-bottom: 12px;
+
+
+}
+
+.message-info {
+    margin-top: -7px;
+    font-size: 11.5px;
+}
+
+.message-info i {
+    font-size: 12px;
+    color: rgba(0, 72, 255, 0.762);
+}
+
+.time {
+
+    color: #555;
+    white-space: nowrap;
+}
+
+.dddd {
+    background-color: white;
+    border-radius: 0px 8px 8px 8px;
+}
+
+.chatStat{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    /* position: fixed;
+    bottom: 0; */
+    /* gap: 5px; */
+    /* margin-top: 100px; */
+    padding: 8px 16px;
+    border-radius: 27px;
+    position: fixed;
+    /* top: 0; */
+    bottom: 13px;
+    width: 860px;
+    box-shadow: 0px 0px 1px gray;
+}
+.Chat-icon{
+    position: relative;
+    display: flex;
+    cursor: pointer;
+     align-items: center;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 7px 5px;
+}
+.tooltip-top{
+    position: absolute;
+    top: -27px;
+    left: -54px;
+    padding: 5px 9px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    display: none;
+}
+.top1{
+    position: absolute;
+    top: -25px;
+    left: -14px;
+}
+.Chat-icon:hover .tooltip-top{
+    display: block;
+}
+.Chat-icon:hover{
+    background: rgb(240 240 240);
+    border-radius: 50%;
+}
+.chat-icon22{
+    transform: scale(1);
+}
+.chat-icon22:hover{
+    background: green;
+    color: white;
+    transform: scale(1);
+}
+.iconnnnnn{
+    display: flex;
+    gap: 6px;
+}
+.iconnnnnn i{
+    font-size: 19px;
+}
+.chatStat input{
+    border: none;
+    outline: none;
+    caret-color: green;
+    width: 710px;
+}
